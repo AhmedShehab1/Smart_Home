@@ -2,7 +2,7 @@
  * Timers_Program.c
  *
  *  Created on: ?? ???? ?????? ???? ??
- *      Author: Acer
+ *      Author: Ahmed Abdelghafar
  */
 
 #include "../Include/LIB/STD_TYPES.h"
