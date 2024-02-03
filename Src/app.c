@@ -37,7 +37,7 @@ u8 Pre_Defined_Users [10][2][12] = {
 
 int main(void)
 {
-	u8 local_u8ReceivedData = 254, Provided_Data[12], i, User_Exists, Password_Incorrect = 4, Flag = 0;
+	u8 local_u8ReceivedData, Provided_Data[12], i, User_Exists, Password_Incorrect = 4, Flag = 0;
 	MDIO_voidInit();
 	MUART_voidInit();
 	MTIMER1_voidInit();
