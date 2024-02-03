@@ -13,18 +13,18 @@ Our project focuses on implementing a mobile-based smart home system that allows
 
 ## Features
 
-1. **User Authentication:**
+1. ***User Authentication:***
    - Unique usernames and passwords for up to 10 users.
    - Three unsuccessful login attempts trigger an alarm.
 
-2. **LED Light Control:**
+2. ***LED Light Control:***
    - Users can turn the LED lights on or off using the app.
 
-3. **Safety Door System:**
+3. ***Safety Door System:***
    - Solenoid-based safety door control for added security.
    - Integration with a buzzer alarm for unauthorized access.
 
-4. **Bluetooth Connectivity:**
+4. ***Bluetooth Connectivity:***
    - Utilizing HC-05 Bluetooth module for seamless communication.
 
 ## Contribution Guidelines
@@ -37,4 +37,3 @@ We welcome contributions! If you'd like to contribute to our project, please fol
 
 
 Feel free to reach out to us if you have any questions or suggestions. Happy coding! 🚀
-```
