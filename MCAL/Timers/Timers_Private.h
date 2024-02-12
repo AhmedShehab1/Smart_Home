@@ -13,8 +13,6 @@
 #define  OCR0     (*(volatile u8 *)0x5C)
 #define  TIMSK    (*(volatile u8 *)0x59)
 #define  TIFR     (*(volatile u8 *)0x58)
-#define TIMER0_CLK_MASK 0b11111000
-#define TIMER0_CLK_OC0_MASK 0b11001000
 #define TCNT1H 	(*(volatile u8 *)0x4D)
 #define TCNT1L 	(*(volatile u8 *)0x4C)
 #define TCNT1 	(*(volatile u16 *)0x4C)
@@ -28,4 +26,12 @@
 #define TCCR1B 	(*(volatile u8 *)0x4E)
 #define ICR1	(*(volatile u16 *)0x46)
 #define OCR1A 	(*(volatile u16 *)0x4A)
+#define OCR1B   (*(volatile u16 *)0x48)
+#define TCCR2   (*(volatile u8 *)0x45)
+#define TCNT2   (*(volatile u8 *)0x44)
+#define OCR2   (*(volatile u8 *)0x43)
+
+#define TIMER0_CLK_OC0_MASK 0b11001000
+#define TIMER0_CLK_MASK 0b11111000
+
 #endif /* INCLUDE_MCAL_TIMERS_TIMERS_PRIVATE_H_ */
