@@ -5,7 +5,8 @@ This project is aimed at creating a smart home system using Atmega32 microcontro
 
 ## Team Members
 - Ahmed Abdelghafer
-- Mahmoud Baha
+- Mahmoud Bahaa
+- Moller Maged
 
 ## Features
 - **User Authentication:** The system supports up to 10 different users with unique usernames and passwords. 
@@ -17,9 +18,9 @@ This project is aimed at creating a smart home system using Atmega32 microcontro
 - **Sensor Integration:** Utilizes LDR sensors for automatic light control and LM35 temperature sensors for temperature monitoring.
 - **Automatic Light Control:** Implements an automatic lighting system based on LDR sensor readings and fast PWM for adjusting light intensity.
 - **Temperature-based Actions:** The system reacts differently based on temperature readings:
-    - Below 20°C: Implement specific actions.
-    - Between 20°C and 25°C: Implement different actions.
-    - Above 25°C: Implement another set of actions.
+    - Below 20°C: Dc Motor **OFF**
+    - Between 20°C and 25°C: Dc Motor At **Medium Speed**
+    - Above 25°C: Dc Motor At **High Speed**
 
 ## Contributing
 We welcome contributions from the community. If you have any ideas for improvement or would like to report an issue, please feel free to open an issue or submit a pull request.
