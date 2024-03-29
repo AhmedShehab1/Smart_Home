@@ -5,7 +5,6 @@ Welcome to our Smart Home Control App project repository! 🏡✨
 
 ## Team Members
 - **Ahmed Abdelghafar**
-- **Mohammed Bahaa**
 
 ## Project Overview
 
