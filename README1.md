@@ -5,8 +5,6 @@ This project is aimed at creating a smart home system using Atmega32 microcontro
 
 ## Team Members
 - Ahmed Abdelghafer
-- Mahmoud Bahaa
-- Moller Maged
 
 ## Features
 - **User Authentication:** The system supports up to 10 different users with unique usernames and passwords. 
